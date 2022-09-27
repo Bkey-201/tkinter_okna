@@ -4,6 +4,7 @@ import tkinter.messagebox as mb
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
+        self.title("Тематические виджеты Tk Bkey-201")
         btn_info = tk.Button(self, text="Информационное окно",
                              command=self.show_info)
         btn_warn = tk.Button(self, text="Окно с предупреждением",
